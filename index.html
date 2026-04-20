@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnergyVault - EV Battery Servicing & Recycling</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-bolt"></i> EnergyVault
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#survey">Survey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Powering the Future of Electric Mobility</h1>
+                <p class="hero-subtitle">Advanced EV battery servicing, repair, and recycling solutions for sustainable energy</p>
+                <button class="btn btn-primary" data-scroll="#about">Learn More</button>
+            </div>
+            <div class="hero-visual">
+                <div class="battery-animation">
+                    <div class="battery-body">
+                        <div class="battery-charge"></div>
+                    </div>
+                    <div class="battery-terminal"></div>
+                </div>
+                <div class="floating-icons">
+                    <div class="icon-float"><i class="fas fa-leaf"></i></div>
+                    <div class="icon-float"><i class="fas fa-zap"></i></div>
+                    <div class="icon-float"><i class="fas fa-recycle"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Why EV Battery Recycling Matters</h2>
+            <p class="section-subtitle">The world is transitioning to electric vehicles, but what happens to their batteries?</p>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>The Problem</h3>
+                    <p>With millions of EV batteries reaching end-of-life, improper disposal threatens environmental health and wastes valuable materials worth billions.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Our Solution</h3>
+                    <p>We provide comprehensive battery servicing, repair, and recycling services to extend battery life and recover precious materials sustainably.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Our Impact</h3>
+                    <p>Creating a circular economy for EV batteries while reducing carbon footprint and supporting the global transition to clean energy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive solutions for every stage of battery lifecycle</p>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Battery Health Diagnostics</h3>
+                    <p>Advanced testing and diagnostics using state-of-the-art equipment to assess battery capacity, performance, and safety.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Capacity Analysis</li>
+                        <li><i class="fas fa-check"></i> Thermal Profiling</li>
+                        <li><i class="fas fa-check"></i> Safety Assessment</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Repair & Module Replacement</h3>
+                    <p>Expert repair services restoring battery performance through module replacement and cell-level repairs.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Module Replacement</li>
+                        <li><i class="fas fa-check"></i> Cell Conditioning</li>
+                        <li><i class="fas fa-check"></i> BMS Reprogramming</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Recycling & Material Recovery</h3>
+                    <p>Sustainable recycling processes to recover valuable materials including lithium, cobalt, and nickel.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Material Separation</li>
+                        <li><i class="fas fa-check"></i> Lithium Recovery</li>
+                        <li><i class="fas fa-check"></i> Safe Disposal</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h3>EV Charging Station</h3>
+                    <p>Comprehensive EV charging solutions including installation, maintenance, and management of charging stations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Fast Charging Setup</li>
+                        <li><i class="fas fa-check"></i> Station Maintenance</li>
+                        <li><i class="fas fa-check"></i> Energy Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">A streamlined process from collection to recovery</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Battery Collection</h3>
+                    <p>Safe pickup and transportation of EV batteries from dealerships, repair shops, and recycling centers.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Diagnostics & Testing</h3>
+                    <p>Comprehensive testing to determine battery condition and categorize for repair or recycling.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Repair or Recycling</h3>
+                    <p>Viable batteries are repaired for second-life use, while others proceed to component recovery.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Material Recovery</h3>
+                    <p>Extraction of valuable materials supporting new battery manufacturing and circular economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Impact Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 class="section-title">Our Environmental Impact</h2>
+            <p class="section-subtitle">Making a difference for our planet</p>
+            
+            <div class="impact-stats">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-unit">Tons of CO2 Avoided</div>
+                    <p>Since our founding, we've prevented equivalent emissions</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="2500">0</div>
+                    <div class="stat-unit">Batteries Recycled</div>
+                    <p>Protecting the environment, one battery at a time</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="800">0</div>
+                    <div class="stat-unit">Tons of Materials Recovered</div>
+                    <p>Lithium, cobalt, nickel, and more for new batteries</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="15000">0</div>
+                    <div class="stat-unit">Second-Life Batteries</div>
+                    <p>Enabling stationary energy storage solutions globally</p>
+                </div>
+            </div>
+
+            <div class="impact-benefits">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-leaf"></i></div>
+                    <h4>Reduced Landfill Waste</h4>
+                    <p>Preventing hazardous batteries from contaminating soil and water</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-droplet"></i></div>
+                    <h4>Water Conservation</h4>
+                    <p>Sustainable processes using minimal water compared to primary extraction</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-wind"></i></div>
+                    <h4>Energy Efficiency</h4>
+                    <p>Recycling uses 10x less energy than mining new materials</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startup Vision Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <div class="vision-content">
+                <h2 class="section-title">Our Vision for the Future</h2>
+                <p class="vision-text">
+                    As electric vehicles become the standard worldwide, battery waste management will be critical infrastructure. 
+                    EnergyVault is pioneering a sustainable circular economy for EV batteries, ensuring that every battery is 
+                    recycled responsibly, materials are recovered efficiently, and second-life applications extend product value.
+                </p>
+                <p class="vision-text">
+                    We're committed to supporting the EV industry's growth while protecting our planet. Our technology and expertise 
+                    will set new standards for battery recycling, creating economic opportunities while solving one of the most 
+                    pressing environmental challenges of our time.
+                </p>
+                
+                <div class="vision-highlights">
+                    <div class="highlight">
+                        <h4><i class="fas fa-check-circle"></i> Industry Leadership</h4>
+                        <p>Setting global standards for battery recycling</p>
+                    </div>
+                    <div class="highlight">
+                        <h4><i class="fas fa-check-circle"></i> Sustainable Innovation</h4>
+                        <p>Advancing tech for better material recovery</p>
+                    </div>
+                    <div class="highlight">
+                        <h4><i class="fas fa-check-circle"></i> Partnership Growth</h4>
+                        <p>Collaborating with OEMs and energy companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EV Survey Section -->
+   <section id="survey" class="survey">
+        <div class="container">
+            <h2 class="section-title">EV User Survey</h2>
+            <p class="section-subtitle">Help us understand your EV needs and preferences</p>
+            
+            <form class="survey-form" id="surveyForm" action="https://formspree.io/f/maqadyjl" method="POST">
+                <div class="form-group">
+                    <label for="usage">1. How often do you use your EV?</label>
+                    <select id="usage" name="usage" required>
+                        <option value="">Select an option</option>
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="rarely">Rarely</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="problem">2. What's your biggest charging problem?</label>
+                    <select id="problem" name="problem" required>
+                        <option value="">Select an option</option>
+                        <option value="availability">Lack of charging stations</option>
+                        <option value="speed">Slow charging speed</option>
+                        <option value="cost">High costs</option>
+                        <option value="compatibility">Connector compatibility</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">3. Where should charging stations be?</label>
+                    <select id="location" name="location" required>
+                        <option value="">Select an option</option>
+                        <option value="home">Home</option>
+                        <option value="work">Workplace</option>
+                        <option value="public">Public spaces</option>
+                        <option value="highways">Highways/Rest areas</option>
+                        <option value="shopping">Shopping centers</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>4. Preferred pricing: pay-per-use or subscription?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="pricing" value="pay-per-use" required> Pay-per-use</label>
+                        <label><input type="radio" name="pricing" value="subscription" required> Subscription</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>5. Would you use battery check/swapping services?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="swapping" value="yes" required> Yes</label>
+                        <label><input type="radio" name="swapping" value="no" required> No</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>6. Would you recycle your EV battery with a certified service?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="recycle" value="yes" required> Yes</label>
+                        <label><input type="radio" name="recycle" value="no" required> No</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit Survey</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss how we can help your organization</p>
+            
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" placeholder="Company (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tell us about your inquiry..." rows="5" required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Address</h4>
+                        <p>ReVolt Pvt. Ltd.<br>3rd Floor, Business Hub<br>Versova Beach Road<br>Near Versova Beach<br>Andheri West, Mumbai – 400061<br>Maharashtra, India</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <h4>Phone</h4>
+                        <p>9993235390 / 240653427</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p>ReVolt@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>EnergyVault</h4>
+                    <p>Advancing sustainable EV battery solutions for a cleaner future.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EnergyVault. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>Form Submitted Successfully!</h3>
+            <p>Thank you for your response. We'll get back to you soon.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
